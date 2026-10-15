@@ -17,3 +17,7 @@ Der Server läuft auf Port 3000; alternativ `PORT=3001 npm start`. Prüfung: `np
 Die Architekturleistungsseite https://swiss-bauplaner.ch/Architekturleistungen/ wurde am 15.10.2026 erfolgreich abgerufen. Die sechs dort genannten Leistungsbereiche wurden übernommen und sprachlich verdichtet: strategische Planung, Vorstudien, Projektierung, Ausschreibung, Realisierung und Beratung. Die weiteren Marketingtexte sind Gestaltungsvorschläge. Firmenname und Kontaktdaten wurden vom Auftraggeber bereitgestellt und stimmen mit der Originalseite überein. Weitere Originalseiten (z. B. Brandschutzplanung, Referenzen, Impressum) sind noch nicht übertragen. Rechtliche Anbieterangaben und Datenschutzhinweise vor Veröffentlichung prüfen und ergänzen. Es werden keine Anfragen erfasst und keine externen Ressourcen geladen. Der Kontaktbereich bietet direkte E-Mail- und Telefonlinks.
 
 Für statisches Hosting nur `index.html`, `styles.css`, `app.js` und `assets/` veröffentlichen. `server.mjs` ist ein lokaler Entwicklungsserver.
+
+## Gestaltung und Logo
+
+Rot, Schwarz und Weiss; das Original-Logo wird unverändert als lokale PNG-Datei eingebunden. Quelle: https://swiss-bauplaner.ch/.cm4all/uproc.php/0/imported/.logo.png/picture-1200?_=169a02996d0 (abgerufen am 15.10.2026). Die Originaldatei misst 70 × 135 Pixel und wird zur scharfen Darstellung kleiner angezeigt.
