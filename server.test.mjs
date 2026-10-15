@@ -13,8 +13,8 @@ test('Homepage liefert vollständige Navigation und die bestätigten Kontaktdate
 });
 test('Alle eingebundenen lokalen Ressourcen sind erreichbar', async () => {
   const html = await (await fetch(base)).text();
-  for (const match of html.matchAll(/(?:src|href)="(\/[^\"]+)"/g)) {
-    const response = await fetch(base + match[1]);
+  for (const match of html.matchAll(/(?:src|href)="(\.\/[^\"]+)"/g)) {
+    const response = await fetch(new URL(match[1], base + "/"));
     assert.equal(response.status, 200, match[1]);
     assert.ok((await response.text()).length > 0);
   }
