@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 1100">
+<defs>
+<linearGradient id="sky" x2="0" y2="1"><stop stop-color="#b8c7c8"/><stop offset="1" stop-color="#e6e5dc"/></linearGradient>
+<linearGradient id="wall" x2="1" y2="1"><stop stop-color="#e2d8c6"/><stop offset="1" stop-color="#aea797"/></linearGradient>
+<linearGradient id="glass" x2="1" y2="1"><stop stop-color="#253d3b"/><stop offset=".5" stop-color="#77867b"/><stop offset="1" stop-color="#263a36"/></linearGradient>
+<filter id="grain"><feTurbulence type="fractalNoise" baseFrequency=".65" numOctaves="3" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="linear" slope=".09"/></feComponentTransfer><feBlend in="SourceGraphic" mode="multiply"/></filter>
+</defs>
+<path fill="url(#sky)" d="M0 0h1500v1100H0z"/>
+<path fill="#939d90" d="m0 515 180-100 150 38 190-126 210 141 260-92 250 126 260-94v692H0z"/>
+<path fill="#657765" d="m0 598 250-97 172 61 244-68 280 102 270-100 284 70v534H0z"/>
+<path fill="#bdbbab" d="M0 858 1500 695v405H0z"/>
+<path fill="#8c8e7c" d="m270 843 899-101 331 204v154H23z"/>
+<path fill="#d4cebc" d="m286 514 630-90 389 158-650 110z"/>
+<path fill="#9f9d8d" d="m936 444 369 138v264l-369-157z"/>
+<path fill="url(#wall)" d="m286 514 650-90v265L286 806z"/>
+<path fill="#c8c2af" d="m244 491 690-101 419 164-48 28-389-142-630 90z"/>
+<path fill="#efeadb" d="m244 491 690-101v27L244 522z"/>
+<path fill="#b4ae9b" d="m934 390 419 164v26L934 417z"/>
+<path fill="url(#glass)" d="m339 564 545-76v181l-545 96z"/>
+<path fill="#dbd2be" d="m487 544 13-2v195l-13 2zm190-27 13-2v188l-13 2z"/>
+<path fill="#c4bba6" d="m297 773 650-115 368 151v56l-370-143-648 118z"/>
+<path fill="#e9e2d1" d="m247 808 698-129 409 165-54 20-355-140-648 118z"/>
+<path fill="url(#glass)" d="m376 845 477-89v211l-477 105z"/>
+<path fill="#d0c5af" d="m508 820 16-3v222l-16 4zm181-33 15-3v217l-15 4z"/>
+<path fill="#e1d7c0" d="m297 840 79-15v247l-79 18zm556-103 92-13v220l-92 23z"/>
+<path fill="#b1aa96" d="m945 724 355 140v192L945 944z"/>
+<path fill="#4a5146" d="m1009 786 200 78v113l-200-67z"/>
+<path fill="#d5d1bf" d="m261 1086 684-153 416 137-70 30H261z"/>
+<path fill="#747f65" d="m0 908 176-70 98 42-42 220H0z"/>
+<g fill="#3c5141"><ellipse cx="1400" cy="660" rx="129" ry="233"/><ellipse cx="1460" cy="465" rx="132" ry="176"/><ellipse cx="1370" cy="381" rx="98" ry="143"/><ellipse cx="66" cy="670" rx="94" ry="151"/></g>
+<path stroke="#5c5b46" stroke-width="16" d="m1424 1038-8-547m4 237-64-151"/>
+<path fill="#e1dbca" d="m0 1063 258-57 1 34L0 1100z"/>
+<path fill="#74816c" d="M0 1019q165-120 269-77l-8 64L0 1063z"/>
+<path fill="#fff" opacity=".13" d="M0 0h1500v1100H0z" filter="url(#grain)"/>
+</svg>
